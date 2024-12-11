@@ -1,0 +1,42 @@
+/*Universal*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/*Header*/
+.container {
+    width: 100%;
+    padding: 0 10px;
+}
+header {
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+}
+
+header h1 {
+    padding: 10px;
+    float: left;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+}
+
+a {
+    text-decoration: underline;
+}
+
