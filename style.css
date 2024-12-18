@@ -116,10 +116,31 @@ img {
     position: relative;
 }
 
+.location_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    color: seashell;
+    text-align: center;
+    line-height: 75px;
+    margin: 15px 40px;
+}
+
 /*Footer*/
 
 footer {
     width: 100%;
     height: 200px;
     border-top: 1px solid seashell;
+    text-align: center;
+}
+
+footer p {
+    text-align: left;
 }
