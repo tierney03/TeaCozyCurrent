@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
+    font-weight: bold;
     color: seashell;
     background-color: black;
 }
@@ -53,7 +54,7 @@ main {
 
 .mission {
     background-color: black;
-    color:seashell;
+    color: seashell;
     height: 75px;
     width: 100%;
     display: flex;
@@ -77,8 +78,42 @@ img {
 }
 
 .tea_month {
-    margin-top: 20px;
+    margin-top: 100px;
 
+}
+
+.team_month_header {
+    text-align: center;
+    padding: 10px;
+}
+
+.team_month_header h1 {
+    margin-bottom: 10px;
+}
+
+.tea_images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.caption {
+    color: seashell;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*Section Locations*/
+
+.location_image {
+    margin: 10px 0;
+    height: 500px;
+    background-image: url("images/img-locations-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 /*Footer*/
